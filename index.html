@@ -13,26 +13,31 @@
   <body>
     <div class="app">
     <header>
-      <form class="search-form">
-        <input type="search" placeholder="Ingrese una ciudad..." required class="search-form-input"/>
+      <form class="search-form" id="search-form">
+        <input 
+        type="search" 
+        placeholder="Ingrese una ciudad..." 
+        required 
+        class="search-form-input"
+        id="search-form-input"/>
         <input type="submit" value="Buscar" class="search-form-button"/>
       </form>
     </header>
     <main>
       <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">Paris</h1>
+        <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
          <p class="weather-app-details">
             Tuesday 10:16, fog </br>
-            Humidity: <strong>66%</strong>, Wind:<strong>2.06km/h</strong>
+            Humidity: <strong>66%</strong>, Wind: <strong>2.06km/h</strong>
         </p>
         </div>
-        <div class="weather-app-temperature-container>
-           <div class="weather-app-icon">☀️</div> 
+       <div class="weather-app-temperature-container">
+         <div class="weather-app-icon">☀️</div> 
            <div class="weather-app-temperature">12</div>
            <div class="weather-app-unit">°C</div>
         </div>
-      </div>
+       </div>
     </main>
     <footer>
       This project was coded by
@@ -45,5 +50,7 @@
       <a href="https://clima2025.netlify.app/" target="_blank">Netlify</a>
     </footer>
   </div>
-  </body>
+  <script src="src/index.js"></script>
+</body>
+  
 </html>
