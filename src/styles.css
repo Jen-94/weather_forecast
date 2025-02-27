@@ -53,6 +53,16 @@ main {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  padding: 30px;
+}
+
+.weather-app-time {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  font-weight: 500px;
+  text-align: center;
 }
 
 .weather-app-details {
@@ -60,6 +70,7 @@ main {
   line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
   font-weight: 500px;
+  text-transform: capitalize;
 }
 
 .weather-app-details strong {
@@ -85,6 +96,7 @@ main {
   margin-top: 16px;
   font-size: 28px;
 }
+
 footer {
   border-top: 1px solid #817fa0;
   /* border-bottom: 1px solid #bcd3d4;*/
