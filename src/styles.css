@@ -68,7 +68,7 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 24px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #6c6666; /*rgba(39, 33, 66, 0.4);*/
   font-weight: 500px;
   text-transform: capitalize;
 }
@@ -102,7 +102,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #6c6666 /*rgba(39, 33, 66, 0.4)*/;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
