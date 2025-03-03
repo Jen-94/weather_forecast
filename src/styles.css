@@ -4,7 +4,7 @@ body {
 }
 
 .app {
-  background: #e3e8e4;
+  background: rgb(215, 230, 250) /* #f1f4f2*/;
   max-width: 600px;
   margin: 30px auto;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
@@ -109,8 +109,10 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 20px;
-  text-align: center;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
